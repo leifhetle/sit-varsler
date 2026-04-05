@@ -1,0 +1,18 @@
+[site]
+url = "https://bolig.sit.no/"
+locator = "[data-gatsby-image-wrapper]"
+
+[scraping]
+base_delay = 100
+random_delay_max = 30
+
+[filters]
+showAll = false
+maxAvailableDate = "2026-08-10"
+housingType = ["2-roms"]
+#housingType = ["3-roms", "2-roms", "2rompar", "hybel_eget_bad", "dublett"]
+#housingType = []
+
+[[filters.location]]
+parent = "Trondheim"
+children = []
