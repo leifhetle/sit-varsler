@@ -1,0 +1,14 @@
+[project]
+name = "sit-bolig-varsler"
+version = "0.1.0"
+description = "Sjekker SIT etter ledige boliger og sender Pushover-varsel"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+sit-bolig-varsler = "main:main"
+
