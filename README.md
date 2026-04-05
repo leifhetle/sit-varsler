@@ -30,8 +30,7 @@ Scriptet snakker direkte med SIT sitt GraphQL-API i bakgrunnen, noe som gjør de
 
 3. **Installer avhengigheter:**
    ```bash
-   pip install -r requirements.txt
-   playwright install chromium
+   pip install -e .
    ```
 
 ---
