@@ -23,7 +23,7 @@ Scriptet snakker direkte med SIT sitt GraphQL-API i bakgrunnen, noe som gjør de
 
 2. **Sett opp virtuelt miljø (anbefalt):**
    ```bash
-   python -m venv venv
+   python3.12 -m venv venv
    source venv/bin/activate  # Linux/macOS
    # eller: venv\Scripts\activate  # Windows
    ```
